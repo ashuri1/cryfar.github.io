@@ -1,0 +1,35 @@
+body {
+	background: darkblue;
+	font-family: arial;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.heading {
+	text-align: center;
+	background-color: blue;
+	color: Lime;
+	border: 2px solid green;
+	padding: 3px 3px;
+	margin: 10px 10px;
+}
+.main {
+	background-color: blue;
+	color: Lime;
+	border: 2px solid green;
+	padding: 3px 3px;
+	margin: 25px 25px;
+}
