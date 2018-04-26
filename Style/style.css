@@ -1,6 +1,7 @@
 body {
 	background: darkblue;
-	font-family: arial;
+	font-family: Arial;
+	letter-spacing: 3px;
 }
 
 h1 {
@@ -20,27 +21,40 @@ p {
 
 a {
 	font-size: 15px;
-	background-color: darkgreen;
+	background-color: darkblue;
 	color: Lime;
-	padding: 15px;
+	border: 1px solid darkgreen;
+	padding: 5px;
+	text-align: center;
 }
 
 a:hover {
-	background-color: green;
+	background-color: Blue;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.fixedtop {
+	text-align: center;
+	position: fixed;
+	top: 0;
 }
 
 .heading {
 	text-align: center;
 	background-color: blue;
 	color: Lime;
-	border: 2px solid green;
-	padding: 3px 3px;
-	margin: 10px 10px;
+	border: 2px solid darkgreen;
+	padding: 5px 5px;
+	margin: 25px;
 }
+
 .main {
 	background-color: blue;
 	color: Lime;
-	border: 2px solid green;
+	border: 2px solid darkgreen;
 	padding: 3px 3px;
 	margin: 25px 25px;
 }
