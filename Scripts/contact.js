@@ -27,7 +27,7 @@ function home() {
 }
 
 function about() {
-    document.getElementById("heading").innerHTML = "Contact";
+    document.getElementById("heading").innerHTML = "About";
 	
 	document.getElementById("underheading").innerHTML = "Something under heading"
 
