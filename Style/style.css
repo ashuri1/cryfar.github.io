@@ -33,10 +33,13 @@ a:hover {
 }
 
 button {
-	background-color: blue;
+	background-color: darkblue;
 	color: lime;
 	border: 2px solid green;
-	
+}
+
+button:hover {
+	background-color: blue;
 }
 
 ul {
