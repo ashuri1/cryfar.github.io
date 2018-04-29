@@ -32,6 +32,13 @@ a:hover {
 	background-color: Blue;
 }
 
+button {
+	background-color: blue;
+	color: lime;
+	border: 2px solid green;
+	
+}
+
 ul {
 	list-style-type: square;
 }
