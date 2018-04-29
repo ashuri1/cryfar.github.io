@@ -1,7 +1,7 @@
 function contact() {
     document.getElementById("heading").innerHTML = "Contact";
 	
-	document.getElementById("underheading").innerHTML = "Something under heading"
+	document.getElementById("underheading").innerHTML = "Something under heading";
 
     document.getElementById("headingtwo").innerHTML = "Contact on something";
 
@@ -15,7 +15,7 @@ function contact() {
 function home() {
     document.getElementById("heading").innerHTML = "Something";
 	
-	document.getElementById("underheading").innerHTML = "Something under heading"
+	document.getElementById("underheading").innerHTML = "Something under heading";
 
     document.getElementById("headingtwo").innerHTML = "We do something";
 
@@ -29,7 +29,7 @@ function home() {
 function about() {
     document.getElementById("heading").innerHTML = "About";
 	
-	document.getElementById("underheading").innerHTML = "Something under heading"
+	document.getElementById("underheading").innerHTML = "Something under heading";
 
     document.getElementById("headingtwo").innerHTML = "About something";
 
