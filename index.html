@@ -4,27 +4,26 @@
     <meta charset="utf-8">
     <title>Something - Home</title>
 	<link rel="stylesheet" href="Style/style.css">
+	
   </head>
   <body>
 	<div>
 		<div id="top" class="heading">
 			<div class="fixedtop">
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="contact.html">Contact</a>
+				<button onclick="home()">Home</button>
+				<button onclick="contact()">Contact</button>				
+				<button onclick="about()">About</button>
 			</div>
-			<h1>Something</h1>
-			<p>Something under heading</p>
+			<h1 id="heading">Something</h1>
+			<p id="underheading">Something under heading</p>
 		</div>
 		<div class="main">
-			<h2>We do something</h2>
-			<p>We do:</p>
-			<ul>
-				<li>This</li>
-				<li>And That</li>
-				<li>And This and That</li>
-			</ul>
+			<h2 id="headingtwo">We do something</h2>
+			<p id="paragraf1">We do really something</p>
+			<p id="paragraf2">Like this</p>
+			<p id="paragraf3">And that</p>
 		</div>
 	</div>
+	<script src="Scripts/contact.js"></script>
   </body>
  </html>
