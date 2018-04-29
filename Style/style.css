@@ -36,6 +36,8 @@ button {
 	background-color: darkblue;
 	color: lime;
 	border: 2px solid green;
+	padding: 5px;
+	margin: 5px;
 }
 
 button:hover {
@@ -58,7 +60,7 @@ ul {
 	color: Lime;
 	border: 2px solid darkgreen;
 	padding: 5px 5px;
-	margin: 25px;
+	margin: 35px;
 }
 
 .main {
