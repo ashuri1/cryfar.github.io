@@ -1,41 +1,39 @@
+function setHTML(elementId, innerHTML) {
+  document.getElementById(elementId).innerHTML = innerHTML;
+}
+
+function render(heading, subheading, heading2, p1 = "", p2 = "", p3 = "") {
+  setHTML("heading", heading);
+  setHTML("underheading", subheading);
+  setHTML("headingtwo", heading2);
+  setHTML("paragraf1", p1);
+  setHTML("paragraf2", p2);
+  setHTML("paragraf3", p3);
+}
+
 function contact() {
-    document.getElementById("heading").innerHTML = "Contact";
-	
-	document.getElementById("underheading").innerHTML = "Something under heading";
-
-    document.getElementById("headingtwo").innerHTML = "Contact on something";
-
-    document.getElementById("paragraf1").innerHTML = "E-mail: something@something.something";
-
-    document.getElementById("paragraf2").innerHTML = "Phone: 1234 123 123";
-
-    document.getElementById("paragraf3").innerHTML = "";
+  render(
+    "Contact",
+    "Something under heading",
+    "Contact on something",
+    "E-mail: something@something.something",
+    "Phone: 1234 123 123"
+  );
 }
 
 function home() {
-    document.getElementById("heading").innerHTML = "Something";
-	
-	document.getElementById("underheading").innerHTML = "Something under heading";
-
-    document.getElementById("headingtwo").innerHTML = "We do something";
-
-    document.getElementById("paragraf1").innerHTML = "We do really something";
-
-    document.getElementById("paragraf2").innerHTML = "Like this";
-
-    document.getElementById("paragraf3").innerHTML = "And that";
+  render(
+    "Something",
+    "Something under heading",
+    "We do something",
+    "We really do something",
+    "Like this",
+    "And that"
+  );
 }
 
 function about() {
-    document.getElementById("heading").innerHTML = "About";
-	
-	document.getElementById("underheading").innerHTML = "Something under heading";
-
-    document.getElementById("headingtwo").innerHTML = "About something";
-
-    document.getElementById("paragraf1").innerHTML = "";
-
-    document.getElementById("paragraf2").innerHTML = "";
-
-    document.getElementById("paragraf3").innerHTML = "";
+  render("About", "Something under heading", "About something");
 }
+
+home();
