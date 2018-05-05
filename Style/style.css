@@ -32,15 +32,16 @@ a:hover {
 }
 
 button {
-	background-color: darkgrey;
-	color: black;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
 	padding: 5px;
 	margin: 5px;
 }
 
 button:hover {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
 }
 
 .fixedtop {
-	background-color: darkgrey;
+	background-color: black;
 	position: fixed;
 	top: 0;
 	margin: 5px;
@@ -56,15 +57,20 @@ ul {
 
 .heading {
 	text-align: center;
-	background-color: darkgrey;
 	color: White;
-	padding: 10px 10px;
-	margin: 50px 25px;
 }
 
 .main {
-	background-color: darkgrey;
+	background-color: black;
 	color: white;
 	padding: 10px 10px;
 	margin: 25px 25px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: 3px;
+	padding: 3px;
 }
