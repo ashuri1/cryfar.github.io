@@ -1,5 +1,5 @@
 body {
-	background: darkblue;
+	background: white;
 	font-family: Arial;
 	letter-spacing: 3px;
 }
@@ -21,9 +21,8 @@ p {
 
 a {
 	font-size: 15px;
-	background-color: darkblue;
+	background-color: darkgrey;
 	color: Lime;
-	border: 1px solid darkgreen;
 	padding: 5px;
 	text-align: center;
 }
@@ -33,15 +32,15 @@ a:hover {
 }
 
 button {
-	background-color: darkblue;
-	color: lime;
-	border: 2px solid green;
+	background-color: darkgrey;
+	color: black;
 	padding: 5px;
 	margin: 5px;
 }
 
 button:hover {
-	background-color: blue;
+	background-color: black;
+	color: white;
 }
 
 ul {
@@ -49,24 +48,23 @@ ul {
 }
 
 .fixedtop {
-	text-align: center;
+	background-color: darkgrey;
 	position: fixed;
 	top: 0;
+	margin: 5px;
 }
 
 .heading {
 	text-align: center;
-	background-color: blue;
-	color: Lime;
-	border: 2px solid darkgreen;
-	padding: 5px 5px;
-	margin: 40px 25px;
+	background-color: darkgrey;
+	color: White;
+	padding: 10px 10px;
+	margin: 50px 25px;
 }
 
 .main {
-	background-color: blue;
-	color: Lime;
-	border: 2px solid darkgreen;
-	padding: 3px 3px;
+	background-color: darkgrey;
+	color: white;
+	padding: 10px 10px;
 	margin: 25px 25px;
 }
