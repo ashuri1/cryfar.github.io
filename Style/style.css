@@ -31,6 +31,10 @@ a:hover {
 	background-color: Blue;
 }
 
+iFrame {
+	text-align: center;	
+}
+
 button {
 	background-color: black;
 	color: white;
