@@ -37,17 +37,17 @@ function about() {
 }
 
 function video1(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/PtbYI8bC3Rk"
+    document.getElementById("myframe").src = "https://www.youtube.com/embed/PtbYI8bC3Rk?autoplay=1"
 }
 
 function video2(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/uoZimlMnXIE"
+    document.getElementById("myframe").src = "https://www.youtube.com/embed/uoZimlMnXIE?autoplay=1"
 }
 
 function video3(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/1ahLAzwWE64"
+    document.getElementById("myframe").src = "https://www.youtube.com/embed/1ahLAzwWE64?autoplay=1"
 }
 
 function video4(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/A5GOUQ9l66g"
+    document.getElementById("myframe").src = "https://www.youtube.com/embed/A5GOUQ9l66g?autoplay=1"
 }
