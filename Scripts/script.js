@@ -1,23 +1,39 @@
-function contact() {
-    document.getElementById("headingtwo").innerHTML = "Contact";
-    document.getElementById("p1").innerHTML = "E-mail: something@something.something";
-    document.getElementById("p2").innerHTML = "Phone: 1234 123 123";
-    document.getElementById("p3").innerHTML = "";
-    document.getElementById("p4").innerHTML = "";
+function setHTML(elementId, innerHTML) {
+  document.getElementById(elementId).innerHTML = innerHTML;
 }
+
+function render(heading, p1, p2, p3) {
+  setHTML("heading", heading);
+  setHTML("p1", p1);
+  setHTML("p2", p2);
+  setHTML("p3", p3);
+}
+
 function home() {
-    document.getElementById("headingtwo").innerHTML = "Something (Niečo)";
-    document.getElementById("p1").innerHTML = "Toto je len test stránka na ktorej skúšam hocijake dizajny";
-    document.getElementById("p2").innerHTML = "Ako napr.";
-    document.getElementById("p3").innerHTML = "Ten youtube tam dole";
-    document.getElementById("p4").innerHTML = "";
+  render(
+    "Something (Niečo)",
+    "Toto je len test stránka na ktorej skúšam hocijake dizajny",
+    "Ako napr.",
+    "Ten youtube tam dole"
+  );
 }
+
+function contact() {
+  render(
+    "Contact",
+    "Contact on something",
+    "E-mail: something@something.something",
+    "Phone: 1234 123 123"
+  );
+}
+
 function about() {
-    document.getElementById("headingtwo").innerHTML = "About";
-    document.getElementById("p1").innerHTML = "";
-    document.getElementById("p2").innerHTML = "";
-    document.getElementById("p3").innerHTML = "";
-    document.getElementById("p4").innerHTML = "";
+  render(
+  "About",
+  "About something",
+  "",
+  ""
+  );
 }
 
 function video1(){
