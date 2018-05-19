@@ -15,10 +15,13 @@ h2 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: normal;
 }
 
+img:hover {
+	background-color: #262624;
+}
 
 a:hover {
 	cursor: pointer;
@@ -28,15 +31,13 @@ button {
 	background-color: black;
 	text-align: center;
 	color: white;
-	border: 1px solid white;
+	border: 1px solid #262624;
 	padding: 10px 30px;
 	margin: 2px;
 }
 
 button:hover {
-	background-color: white;
-	color: black;
-	border: 1px solid blue;
+	background-color: #262624;
 	cursor: pointer;
 }
 
@@ -48,19 +49,15 @@ ul {
 	background-color: black;
 	position: fixed;
 	top: 0;
-	margin: 5px;
-}
-
-.heading {
-	text-align: center;
-	color: White;
+	margin: 5px 25px;
 }
 
 .main {
 	background-color: black;
 	color: white;
 	padding: 10px 10px;
-	margin: 125px 25px 25px 25px;
+	margin: 100px 25px 25px 25px;
+	text-align: center;
 }
 
 .video {
@@ -71,6 +68,25 @@ footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	margin: 3px;
-	padding: 3px;
+	margin: 25px;
+	padding: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 7px
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 2px 2px 5px #262624;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #262624;
 }

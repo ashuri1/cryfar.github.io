@@ -38,25 +38,25 @@ function about() {
 
 function video1(){
     document.getElementById("myframe").src = "https://www.youtube.com/embed/PtbYI8bC3Rk?autoplay=1"
-    document.getElementById("myframe").height = 600;
+    document.getElementById("myframe").height = 500;
     document.getElementById("myframe").width = 800;
 }
 
 function video2(){
     document.getElementById("myframe").src = "https://www.youtube.com/embed/uoZimlMnXIE?autoplay=1"
-    document.getElementById("myframe").height = 600;
+    document.getElementById("myframe").height = 500;
     document.getElementById("myframe").width = 800;
 }
 
 function video3(){
     document.getElementById("myframe").src = "https://www.youtube.com/embed/1ahLAzwWE64?autoplay=1"
-    document.getElementById("myframe").height = 600;
+    document.getElementById("myframe").height = 500;
     document.getElementById("myframe").width = 800;
 }
 
 function video4(){
     document.getElementById("myframe").src = "https://www.youtube.com/embed/A5GOUQ9l66g?autoplay=1"
-    document.getElementById("myframe").height = 600;
+    document.getElementById("myframe").height = 500;
     document.getElementById("myframe").width = 800;
 }
 
