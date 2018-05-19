@@ -11,7 +11,7 @@ function render(heading, p1, p2, p3) {
 
 function home() {
   render(
-    "Something (Niečo)",
+    "Something",
     "Toto je len test stránka na ktorej skúšam hocijake dizajny",
     "Ako napr.",
     "Ten youtube tam dole"
