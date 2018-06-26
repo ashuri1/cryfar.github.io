@@ -1,6 +1,6 @@
 body {
 	background: #131313;
-	font: Times New Roman;
+	font-family: Times New Roman;
 }
 
 h1 {
@@ -28,6 +28,7 @@ a:hover {
 
 button {
 	background-color: #131313;
+	font-size: 25px;
 	position: center;
 	color: #CAB070;
 	border: 1px solid #131313;
