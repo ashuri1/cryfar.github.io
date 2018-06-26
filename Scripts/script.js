@@ -14,7 +14,7 @@ function home() {
     "Something",
     "Toto je len test stránka na ktorej skúšam hocijake dizajny",
     "Ako napr.",
-    "Ten youtube tam dole"
+    "Vyber si pesničku:"
   );
 }
 
@@ -37,7 +37,7 @@ function about() {
 }
 
 function video1(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/PtbYI8bC3Rk?autoplay=1"
+    document.getElementById("myframe").src = "https://www.youtube.com/embed/yJg-Y5byMMw?autoplay=1"
     document.getElementById("myframe").height = 500;
     document.getElementById("myframe").width = 800;
 }
