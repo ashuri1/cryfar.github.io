@@ -19,24 +19,25 @@ p {
 }
 
 img:hover {
-	background-color: #262624;
+	background-color: #131313;
 }
 
 a:hover {
 	cursor: pointer;
 }
 
-button {
+a {
 	background-color: #131313;
 	font-size: 15px;
-	position: center;
 	color: #CAB070;
-	border: 2px dotted #252525;
+	border: 2px solid #252525;
 	padding: 5px;
 	margin: 3px;
+	position: relative;
+	transition: .5s ease;
 }
 
-button:hover {
+a:hover {
 	color: white;
 	cursor: pointer;
 	border: 2px solid #252525;
@@ -50,20 +51,31 @@ ul {
 	background-color: #131313;
 	text-align: center;
 	margin: -1px;
+	padding: 10px;
 	border-bottom: 2px solid #252525;
+}
+
+.buton {
+	border: 2px solid #131313;
+	font-weight: bolder;
+}
+
+.buton:hover {
+	border: 2px solid #131313;
 }
 
 .main {
 	background-color: #131313;
 	color: #CAB070;
 	border: 2px solid #252525;
-	padding: 5px;
+	padding: 3px;
 	margin: 15px;
 	text-align: center;
 }
 
 .video {
-	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }
 
 footer {
@@ -81,15 +93,15 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 2px 2px 5px #262624;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: black;
+  box-shadow: inset 2px 2px 5px #252525;
   border-radius: 5px;
 }
 
+::-webkit-scrollbar-thumb {
+  background: #CAB070;
+  border-radius: px;
+}
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #262624;
+  background: #CAB181;
 }
