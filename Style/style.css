@@ -47,6 +47,10 @@ ul {
 	list-style-type: square;
 }
 
+iframe {
+	border: 2px solid #CAB070;
+}
+
 .fixedtop {
 	background-color: #131313;
 	text-align: center;
@@ -74,8 +78,23 @@ ul {
 }
 
 .video {
+	background-color: #131313;
+	color: #CAB070;
+	border: 2px solid #252525;
+	padding: 3px;
+	margin: 15px;
+	text-align: center;
+}
+
+.buttons {
+	text-align: right;
 	padding: 10px;
 	margin: 10px;
+}
+
+.video-player {
+	text-align: left;
+	margin: 25px;
 }
 
 footer {
