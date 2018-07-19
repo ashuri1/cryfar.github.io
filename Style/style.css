@@ -6,7 +6,45 @@ body {
 
 h1 {
 	text-align: center;
-	
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+header {
+	border-bottom: 2px solid #252525;
+}
+
+nav {
+	border: 2px solid #252525;
+	margin: 5px;
+	padding: 10px;
+}
+
+section {
+	border: 2px solid #252525;
+	margin: 5px;
+	padding: 10px;
+}
+
+button {
+	background-color: #131313;
+	color: #CAB070;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #252525;
+	transition: 1s;
+}
+
+button:hover {
+	cursor: pointer;
+	color: white;
+	transition: 1s;
 }
 
 /* Scrollbar */
