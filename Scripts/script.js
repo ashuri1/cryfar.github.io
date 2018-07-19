@@ -35,38 +35,3 @@ function about() {
 		""
   );
 }
-
-function video1(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/yJg-Y5byMMw?autoplay=1"
-    document.getElementById("myframe").height = 500;
-    document.getElementById("myframe").width = 800;
-	document.getElementById("VideoName").innerHTML = "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]"
-}
-
-function video2(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/uoZimlMnXIE?autoplay=1"
-    document.getElementById("myframe").height = 500;
-    document.getElementById("myframe").width = 800;
-	document.getElementById("VideoName").innerHTML = "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]"
-}
-
-function video3(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/1ahLAzwWE64?autoplay=1"
-    document.getElementById("myframe").height = 500;
-    document.getElementById("myframe").width = 800;
-	document.getElementById("VideoName").innerHTML = "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]"
-}
-
-function video4(){
-    document.getElementById("myframe").src = "https://www.youtube.com/embed/A5GOUQ9l66g?autoplay=1"
-    document.getElementById("myframe").height = 500;
-    document.getElementById("myframe").width = 800;
-	document.getElementById("VideoName").innerHTML = "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]"
-}
-
-function removevid(){
-    document.getElementById("myframe").src = "";
-    document.getElementById("myframe").height = 0;
-    document.getElementById("myframe").width = 0;
-	document.getElementById("VideoName").innerHTML = ""
-}
