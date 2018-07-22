@@ -39,11 +39,18 @@ function noxus() {
 	document.getElementById("img3").height = 200;
 }
 
-function piltover() {
+function shurima() {
 	render(
-		"About",
-		"About something",
-		"",
-		""
+		"Shurima",
+		"Shurimská říše byla kdysi vzkvétající civilizací uprostřed rozsáhlé pouště. Když pominula doba blahobytu a bohatství, pád hlavního města zanechal říši v troskách. Jak míjela celá tisíciletí, příběhy slavného města Shurimy se staly pouhými mýty a také náboženstvím, které si mezi sebou předávali potomci přeživších. Většina potulných nomádů, kteří nyní poušť obývají, se jen snaží přežít v této drsné zemi. Někteří z nich brání malé tábory postavené kolem vzácných oáz. Jiní se v honbě za ztraceným bohatstvím vydávají do ruin padlé říše a nebo hledají práci jako nájemní žoldáci, kteří s vydělaným měšcem zlaťáků zmizí zpět do rozpáleného moře písku. Nyní potulné kmeny rozrušil tichý šepot ze srdce samotné pouště: Shurima znovu povstala.",
   );
+  document.getElementById("img1").src = "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-vekaurastreets.jpg&resize=:1200";
+	document.getElementById("img1").width = 400;
+	document.getElementById("img1").height = 200;
+	document.getElementById("img2").src = "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-reborn.jpg&resize=:1200";
+	document.getElementById("img2").width = 400;
+	document.getElementById("img2").height = 200;
+	document.getElementById("img3").src = "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-homecoming.jpg&resize=:1200";
+	document.getElementById("img3").width = 400;
+	document.getElementById("img3").height = 200;
 }
