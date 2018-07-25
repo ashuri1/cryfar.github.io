@@ -1,0 +1,41 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Something</title>
+		<link rel="icon" type="image/png" href="Images/image.png">
+		<link rel="stylesheet" href="Style/style.css">
+	</head>
+  <body>
+	<div>
+		<div class="fixedtop">
+				<a class="buton" onclick="home()">Home</a>
+				<a class="buton" onclick="contact()">Contact</a>
+				<a class="buton" onclick="about()">About</a>
+		</div>
+		<div class="main">
+				<h2 id="h"></h2>
+				<p id="p1"></p>
+				<p id="p2"></p>
+				<p id="p3"></p>
+		</div>
+		<div class="video">
+			<div class="buttons">
+				<a onclick="video1()">Warriyo - Mortals (feat. Laura Brehm) [NCS Release]</a>
+				<a onclick="video2()">Goblins from Mars - Apollo 69</a>
+				<a onclick="video3()">Goblins from Mars - Birdman</a>
+				<a onclick="video4()">Goblins from Mars - Enough</a>
+				<a onclick="removevid()">Remove Video</a>
+			</div>
+			<div class="video-player">
+				<iframe id="myframe" width="0" height="0" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<h3 id="VideoName"><h3>
+			</div>
+		</div>
+	</div>
+        	<footer>
+         		 <h6>&copy; 2018 CRYFAR ALL RIGHTS RESERVED</h6>
+        	</footer>
+	<script src="Scripts/script.js"></script>
+  </body>
+ </html>
