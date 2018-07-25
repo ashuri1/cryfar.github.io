@@ -1,11 +1,12 @@
 body {
 	background: #131313;
-	font-family: Times New Roman;
-	color: #CAB070;
+	font: inherit;
+	color: #c4b998;
 }
 
 h1 {
 	text-align: center;
+	color: #c9aa71;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
 
 p {
 	text-align: center;
+	padding: 10px 250px;
 }
 
 header {
@@ -32,9 +34,8 @@ section {
 }
 
 button {
-
 	background-color: #131313;
-	color: #CAB070;
+	color: #c9aa71;
 	margin: 5px;
 	padding: 5px;
 	border: 2px solid #252525;
@@ -49,13 +50,12 @@ button:hover {
 
 img {
 	position: sticky;
-	border: 2px solid #CAB070;
+	border: 2px solid #131313;
 	margin: 10px 13px;
 }
 
 img:hover {
-	border: 2px solid #252525;
-	padding: 2px;
+	border: 2px solid #c9aa71;
 }
 
 /* Scrollbar */
