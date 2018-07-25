@@ -7,6 +7,7 @@ body {
 h1 {
 	text-align: center;
 	color: #c9aa71;
+	font-size: 200%
 }
 
 h2 {
@@ -19,12 +20,13 @@ p {
 }
 
 header {
-	border-bottom: 2px solid #252525;
+	
 }
 
 nav {
-	margin: 5px;
-	padding: 10px 185px;
+	padding: 1px 20px;
+	border-bottom: 2px solid #252525;
+	margin-bottom: 20px;
 }
 
 section {
@@ -35,6 +37,8 @@ section {
 
 button {
 	background-color: #131313;
+	font-weight: bold;
+	font-size: 125%;
 	color: #c9aa71;
 	margin: 5px;
 	padding: 5px;
