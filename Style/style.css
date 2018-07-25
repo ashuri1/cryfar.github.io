@@ -21,9 +21,8 @@ header {
 }
 
 nav {
-	border: 2px solid #252525;
 	margin: 5px;
-	padding: 10px 10px 10px 175px;
+	padding: 10px 185px;
 }
 
 section {
@@ -46,6 +45,17 @@ button:hover {
 	cursor: pointer;
 	color: white;
 	transition: 1s;
+}
+
+img {
+	position: sticky;
+	border: 2px solid #CAB070;
+	margin: 10px 13px;
+}
+
+img:hover {
+	border: 2px solid #252525;
+	padding: 2px;
 }
 
 /* Scrollbar */
