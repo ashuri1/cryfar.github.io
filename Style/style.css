@@ -20,7 +20,7 @@ p {
 }
 
 header {
-	
+
 }
 
 nav {
@@ -60,6 +60,29 @@ img {
 
 img:hover {
 	border: 2px solid #c9aa71;
+}
+
+.mewant {
+	border: 2px solid #252525;
+	margin: 5px;
+	padding: 10px;
+}
+
+a {
+	background-color: #131313;
+	font-weight: bold;
+	font-size: 90%;
+	color: #c9aa71;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #252525;
+	transition: 1s;
+}
+
+a:hover {
+	cursor: pointer;
+	color: white;
+	transition: 1s;
 }
 
 /* Scrollbar */
