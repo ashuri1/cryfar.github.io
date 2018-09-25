@@ -42,7 +42,7 @@ button {
 	color: #c9aa71;
 	margin: 5px;
 	padding: 5px;
-	border: 2px solid #252525;
+.	border: 2px solid #252525;
 	transition: 1s;
 }
 
@@ -85,7 +85,7 @@ a:hover {
 	transition: 1s;
 }
 
-imglink {
+.imglink {
 	border: 0px solid #131313;	
 }
 
