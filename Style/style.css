@@ -91,7 +91,6 @@ button:hover:after
 img {
 	border: 2px solid #252525;
 	margin: 5px 5px;
-    transition: .5s;
 }
 
 img:hover {
