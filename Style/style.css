@@ -2,6 +2,7 @@ body {
 	background: #131313;
 	font: inherit;
 	color: #c4b998;
+    align-items: center;
 }
 
 h1 {
@@ -36,29 +37,66 @@ section {
 }
 
 button {
-	background-color: #131313;
-	font-weight: bold;
-	font-size: 125%;
-	color: #c9aa71;
-	margin: 4px;
-	padding: 4px;
-	border: 2px solid #252525;
-	transition: 1s;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #262626;
+    border: 1px solid #c9aa71;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    letter-spacing: 2px;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+    overflow: hidden;
 }
-
-button:hover {
-	cursor: pointer;
-	color: white;
-	transition: 1s;
+button:hover
+{
+    cursor: pointer;
+}
+button:before
+{
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #c9aa71;
+    z-index: -1;
+    transition: .5s;
+    position: absolute;
+    top: -50%;
+    left: 0;
+}
+button:hover:before
+{
+    top: 0;
+}
+button:after
+{
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #c9aa71;
+    z-index: -1;
+    transition: .5s;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+}
+button:hover:after
+{
+    bottom: 0;
 }
 
 img {
 	border: 2px solid #252525;
 	margin: 5px 5px;
+    transition: .5s;
 }
 
 img:hover {
 	border: 2px solid #c9aa71;
+    transition: .5s;
 }
 
 .mewant {
