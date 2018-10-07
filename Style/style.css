@@ -14,6 +14,14 @@ h1 {
 h2 {
 	text-align: center;
 }
+ul
+{
+    list-style: none;
+}
+li
+{
+    display: inline;
+}
 
 p {
 	text-align: center;
@@ -90,12 +98,14 @@ button:hover:after
 
 img {
 	border: 2px solid #252525;
-	margin: 5px 5px;
+    margin: 5px 5px;
+    transition: .5s;
 }
 
 img:hover {
 	border: 2px solid #c9aa71;
     transition: .5s;
+    transform: scale(1.15);
 }
 
 .mewant {
