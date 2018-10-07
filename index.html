@@ -133,6 +133,19 @@
     </tr>
   </tbody>
 </table>
-		<script src="Scripts/script.js"></script>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/queryloader2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function() {
+          QueryLoader2(document.querySelector("body"), {
+              barColor: "#c9aa71",
+              backgroundColor: "#262626",
+              percentage: true,
+              barHeight: 1,
+              minimumTime: 200,
+              fadeOutTime: 1000
+          });
+      });
+  </script>
 	</body>
  </html>
