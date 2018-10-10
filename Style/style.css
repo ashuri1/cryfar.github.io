@@ -1,17 +1,18 @@
-body {
+body 
+{
 	background: #131313;
 	font: inherit;
 	color: #c4b998;
     align-items: center;
 }
-
-h1 {
+h1 
+{
 	text-align: center;
 	color: #c9aa71;
 	font-size: 200%
 }
-
-h2 {
+h2 
+{
 	text-align: center;
 }
 ul
@@ -22,29 +23,25 @@ li
 {
     display: inline;
 }
-
-p {
+p 
+{
 	text-align: center;
 	padding: 10px 250px;
 }
-
-header {
-
-}
-
-nav {
+nav 
+{
 	padding: 1px 20px;
 	border-bottom: 2px solid #252525;
 	margin-bottom: 20px;
 }
-
-section {
+section 
+{
 	border: 2px solid #252525;
 	margin: 5px;
 	padding: 10px;
 }
-
-button {
+button 
+{
     text-transform: uppercase;
     text-decoration: none;
     background: #262626;
@@ -95,17 +92,17 @@ button:hover:after
 {
     bottom: 0;
 }
-
-img {
+img
+{
 	border: 2px solid #252525;
     margin: 5px 5px;
     transition: .5s;
 }
-
-img:hover {
+img:hover
+{
 	border: 2px solid #c9aa71;
     transition: .5s;
-    transform: scale(1.15);
+    transform: scale(1.10);
 }
 
 .mewant {
@@ -133,6 +130,10 @@ a:hover {
 
 .imglink {
 	border: 0px solid #131313;	
+}
+.pcpp-part-list-total,pcpp-part-list-total-price
+{
+    text-decoration: bold;
 }
 
 /* Scrollbar */
