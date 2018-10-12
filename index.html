@@ -21,39 +21,48 @@
     </script>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a class="home">Home</a></li>
-            <li>
-                <a class="regions">Regions</a>
-                <ul>
-                    <li><a onclick="demacia()">Demacia</a></li>
-                    <li><a onclick="noxus()">Noxus</a></li>
-                    <li><a onclick="">Bilgewater</a></li>
-                    <li><a onclick="">Ionia</a></li>
-                    <li><a onclick="">Freljord</a></li>
-                    <li><a onclick="">Zaun</a></li>
-                    <li><a onclick="">Piltover</a></li>
-                    <li><a onclick="">Shurima</a></li>
-                    <li><a onclick="">Mount Targon</a></li>
-                    <li><a onclick="">Shadow Isles</a></li>
-                    <li><a onclick="">Void</a></li>
-                    <li><a onclick="">Bandle City</a></li>
-                </ul>
-            </li>
-            <li><a class="champions">Champions</a>
-                <ul>
-                    <li><a>WIP</a></li>
-                </ul>
-            </li>
-        </ul>
-    </header>
+    <div class="menu">
+        <header>
+            <ul>
+                <li><a onclick="home()" class="home">Home</a></li>
+                <li>
+                    <a class="regions">Regions</a>
+                    <ul>
+                        <li><a onclick="demacia()">Demacia</a></li>
+                        <li><a onclick="noxus()">Noxus</a></li>
+                        <li><a onclick="bilgewater()">Bilgewater</a></li>
+                        <li><a onclick="ionia()">Ionia</a></li>
+                        <li><a onclick="freljord()">Freljord</a></li>
+                        <li><a onclick="zaun()">Zaun</a></li>
+                        <li><a onclick="piltover()">Piltover</a></li>
+                        <li><a onclick="shurima()">Shurima</a></li>
+                        <li><a onclick="targon()">Mount Targon</a></li>
+                        <li><a onclick="shadowisles()">Shadow Isles</a></li>
+                        <li><a onclick="voidlol()">Void</a></li>
+                        <li><a onclick="bandlecity()">Bandle City</a></li>
+                    </ul>
+                </li>
+                <li><a class="champions">Champions</a>
+                    <ul>
+                        <li><a>WIP</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
     <div class="heading">
         <h1>League Universe</h1>
     </div>
-    <content>
-        <h2 id="h"></h2>
-        <p id="p1"></p>
-    </content>
+    <div class="content">
+        <h1 id="h">Vitaj na mojej Super stránke :D</h1>
+        <p id="p1">Vyber si region a zisti o nom niečo Šampióni prídu neskoršie</p>
+        <a class="imglink" id="link1" href="" target=_blank><img id="img1" src="" height="200" width="375"></a>
+		<a class="imglink" id="link2" href="" target=_blank><img id="img2" src="" height="200" width="375"></a>
+		<a class="imglink" id="link3" href="" target=_blank><img id="img3" src="" height="200" width="375"></a>
+    </div>
+    <div class="content">
+        <h2>Vlastné Video</h2>
+        <iframe id="myframe" width="800" height="600" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
