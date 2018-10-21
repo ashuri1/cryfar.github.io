@@ -5,7 +5,7 @@
     background: #262626;
     color: #c9aa71;
 }
-.menu
+header
 {
     position: fixed;
     width: 100%;
@@ -15,39 +15,78 @@
     box-sizing: border-box;
     border-bottom: 2px solid #363636;
 }
-header
+section
 {
-    position: relative;
-    float: left;
+    text-align: center;
+    background: black;
+    border: 2px solid #363636;
+    border-radius: 1%;
+    padding: 20px;
+    margin: 20px;
 }
-header ul
+footer
 {
-    margin: 0;
-    padding: 0;
-    display: flex;
+    background: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #363636;
+    border-radius: 1%;
 }
-header ul li
-{
-    list-style: none;
-}
-header ul li a
+.links
 {
     background-color: #161616;
     color: white;
-    display: block;
     border: 1px solid #c9aa71;
+    border-radius: 5%;
     padding: 5px;
     margin: 5px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    transition: all .5s;
 }
-header ul li a:hover
+.links:hover
 {
     background-color: #c9aa71;
     cursor: pointer;
+    border-radius: 10%;
 }
-header ul li ul
+nav
+{
+    position: relative;
+    float: left;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    background-color: #161616;
+    color: white;
+    display: block;
+    border: 1px solid #c9aa71;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+nav ul li a:hover
+{
+    background-color: #c9aa71;
+    cursor: pointer;
+    border-radius: 10%;
+}
+nav ul li ul
 {
     display: block;
     position: absolute;
@@ -59,37 +98,26 @@ header ul li ul
     opacity: 0;
     transform: translateX(-50px)
 }
-header ul li:hover ul
+nav ul li:hover ul
 {
     visibility: visible;
     opacity: 1;
     transform: translateX(0px)
 }
-header ul li ul li a
+nav ul li ul li a
 {
     padding: 10px;
 }
-.heading
-{
-    visibility: hidden;
-}
-.content
-{
-    text-align: center;
-    margin: 50px;
-    padding: 20px;
-    background: black;
-}
 img
 {
-    border: 2px solid #363636;
-    margin: 50px;    
+    border: 1px solid #363636;
     transition: .5s;
     z-index: -1;
+    margin: 10px;
 }
 img:hover
 {
-    transform: scale(1.20);
-    border: 2px solid #c9aa71;
+    transform: scale(1.10);
+    border: 1px solid #c9aa71;
     transition: .5s;
 }
