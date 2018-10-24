@@ -2,54 +2,44 @@
 {
     margin: 0;
     padding: 0;
-    background: #262626;
-    color: #c9aa71;
+    background: #1A1A1D;    
+    color: white;
 }
 header
 {
+    background: #1A1A1D;
     position: fixed;
+    margin-top: -25px;
     width: 100%;
-    background: black;
-    padding: 0 100px;
-    margin-top: -21px;
+    padding: 5px 10px;
     box-sizing: border-box;
-    border-bottom: 2px solid #363636;
 }
 section
 {
     text-align: center;
-    background: black;
-    border: 2px solid #363636;
-    border-radius: 1%;
     padding: 20px;
-    margin: 20px;
+    margin: 30px;
+    box-shadow: 3px 3px 3px 3px #950740;
 }
 footer
 {
-    background: black;
+    background: #1A1A1D;
     padding: 20px;
     text-align: center;
-    border-top: 2px solid #363636;
-    border-radius: 1%;
 }
 .links
 {
-    background-color: #161616;
+    background-color: #1A1A1D;
+    text-align: center;
     color: white;
-    border: 1px solid #c9aa71;
-    border-radius: 5%;
-    padding: 5px;
-    margin: 5px;
+    border: 1px solid #C3073f;
+    border-radius: 50px;
+    padding: 6px;
+    margin: 4px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     transition: all .5s;
-}
-.links:hover
-{
-    background-color: #c9aa71;
-    cursor: pointer;
-    border-radius: 10%;
 }
 nav
 {
@@ -68,23 +58,24 @@ nav ul li
 }
 nav ul li a
 {
-    background-color: #161616;
+    background-color: #1A1A1D;
+    text-align: center;
     color: white;
     display: block;
-    border: 1px solid #c9aa71;
-    border-radius: 5%;
-    padding: 5px;
-    margin: 5px;
+    border: 1px solid #C3073f;
+    border-radius: 50px;
+    padding: 6px;
+    margin: 4px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     transition: all .5s;
 }
-nav ul li a:hover
+nav ul li a:hover ,.links:hover
 {
-    background-color: #c9aa71;
+    background-color: #c3073f;
     cursor: pointer;
-    border-radius: 10%;
+    border-radius: 6px;
 }
 nav ul li ul
 {
@@ -92,7 +83,6 @@ nav ul li ul
     position: absolute;
     margin-top: 1px;
     transition: .5s;
-    background-color: black;
     border: #363636;
     visibility: hidden;
     opacity: 0;
@@ -110,14 +100,13 @@ nav ul li ul li a
 }
 img
 {
-    border: 1px solid #363636;
+    border: 1px solid #4E4E50;
     transition: .5s;
-    z-index: -1;
     margin: 10px;
 }
 img:hover
 {
     transform: scale(1.10);
-    border: 1px solid #c9aa71;
+    border: 1px solid #950740;
     transition: .5s;
 }
