@@ -98,15 +98,52 @@ nav ul li ul li a
 {
     padding: 10px;
 }
-img
+
+.imgbox
 {
-    border: 1px solid #4E4E50;
+    display: inline-block;
+    width: 35%;
+    border: 1px solid #363636;
     transition: .5s;
     margin: 10px;
 }
-img:hover
+.image
 {
-    transform: scale(1.10);
-    border: 1px solid #950740;
+    width: 100%;
+    height: auto;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5;
+    background-color: black;
+}
+.imgbox:hover
+{
+    transform: scale(1.1);
     transition: .5s;
+    border: 1px solid #C3073f;
+}
+.imgbox:hover .overlay
+{
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0.8;
+}
+.text
+{
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
