@@ -98,23 +98,27 @@ nav ul li ul li a
 {
     padding: 10px;
 }
-
+.selected
+{
+    background-color: #C3073f;
+    border-radius: 6px;
+}
 .imgbox
 {
     display: inline-block;
     width: 35%;
     border: 1px solid #363636;
     transition: .5s;
-    margin: 10px;
+    margin: 15px;
 }
 .image
 {
+    display: block;
     width: 100%;
     height: auto;
 }
 .overlay
 {
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -139,11 +143,15 @@ nav ul li ul li a
 }
 .text
 {
-    font-size: 55px;
+    font-size: 40px;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 100%);
+    padding: 5px;
+    border: 1px solid #c3073f;
+    border-radius: 10px;
+    background: #1A1A1D;
 }
