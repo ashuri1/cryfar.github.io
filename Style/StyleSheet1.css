@@ -15,7 +15,7 @@ nav
     text-align: center;
     z-index: 100;
     top: 0;
-    padding: 1vw;
+    padding: 1.5vw;
     border-bottom: 0.2vw solid #464646;
     font-style: none;
 }
@@ -23,7 +23,7 @@ nav a
 {
     color: #927345;
     background: #262626;
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 1%;
     margin: 0% 1%;
     transition: all .2;
@@ -57,6 +57,10 @@ section
     border: 0.2vw solid #927345;
     font-size: 2vw;
 }
+.first-section
+{
+    margin-top: 10%;
+}
 footer
 {
     background: #161616;
@@ -82,4 +86,15 @@ footer
     transform: scale(1.1);
     transition: .2s;
     border: 0.2vw solid #927345;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        height: 3%;
+    }
+    nav a {
+        padding: 1.75%;
+    }
+    .first-section {
+        margin-top: 15%;
+    }
 }
