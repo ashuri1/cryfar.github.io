@@ -34,7 +34,7 @@ nav a:hover
     background: #927345;
     transition: all .2;
 }
-section a
+.link
 {
     color: #927345;
     background: #262626;
@@ -43,7 +43,7 @@ section a
     padding: 1%;
     transition: all .2;
 }
-section a:hover
+.link:hover
 {
     color: lightgrey;
     background: #927345;
