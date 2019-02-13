@@ -1,18 +1,55 @@
 ﻿<!DOCTYPE html>
     <head>
         <meta charset="utf-8" />
-        <title>League Universe: Demacia</title>
-        <link href="Style/StyleSheet1.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>League Universe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="Style/StyleSheet1.css">
     </head>
     <body>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="regions.html">Regions</a>
-            <a href="champions.html">Work In Progress</a>
-        </nav>
+        <!--Heading-->
+        <header>
+            <a class="logo" href="index.html"><img src="Style/logo.png" alt="Logo" height="auto"></a>
+            <div class="menu-toggle"></div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="regions.html">Regions</a></li>
+                    <li><a href="#">Champions Work in progress</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                    $('.menu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+        <!--Heading End-->    
         <section class="first-section">
             <h1>Vitaj na mojej úžasnej stránke</h1>
             <p>Lepšiu nenajdeš :)</p>
+            <a class="region" href="regions.html">
+                <img src="Region Images/Demacia.png" alt="Demacia">
+                <h2>Regions</h2>
+            </a>
         </section>
+        <footer>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+            <h3>2017-2019 &copy; CryFar All Rights Reserved</h3>
+        </footer>
     </body>
 </html>

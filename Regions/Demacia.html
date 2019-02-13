@@ -2,15 +2,39 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>League Universe: Demacia</title>
-        <link href="../Style/StyleSheet1.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>League Universe - Demacia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../Style/StyleSheet1.css">
     </head>
     <body>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../regions.html">Regions</a>
-            <a href="../champions.html">Work In Progress</a>
-        </nav>
+        <!--Heading-->
+        <header>
+            <a class="logo" href="../index.html"><img src="../Style/logo.png" alt="Logo" height="auto"></a>
+            <div class="menu-toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a class="active" href="../regions.html">Regions</a></li>
+                    <li><a href="#">Champions Work in progress</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                    $('.menu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+        <!--Heading End-->
         <section class="first-section">
         <h1>Demacia</h1>
         <p>Demacie je silnou společností, která ctí své zákony. Má dlouhou a bohatou vojenskou tradici. Demaciané jsou velice hrdí lidé a vysoce si cení ideálů jako spravedlnost, povinnost a čest. V Demacii se rozvinulo zejména rolnictví díky rozlehlým úrodným polím, hlubokým lesům plným dřeva či horami bohatými na nerostné suroviny – to vše zajistilo zemi soběstačnost. Časté nájezdy barbarů a dobyvatelských civilizací způsobily, že se Demacie stala izolovanou zemí se silnou obranou. Někteří lidé tvrdí, že zlatý věk Demacie už pominul a je na čase změnit svůj postoj ke světu kolem – pokud je toho tato země vůbec schopna – jinak se nevyhne úpadku. Nicméně je Demacie pořád jednou z nejsilnějších civilizací ve Valoranu a pyšní se nejlépe vycvičenou armádou na Runeterře.</p>
@@ -34,9 +58,9 @@
                 <img class="image" src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fdemacia-grandplaza.jpg&resize=:1200">
             </a>
         </section>
-        <section>
+        <section class="iframe-section">
             <h2>Hudba Demacie</h1>
-            <iframe width="786" height="443" src="https://www.youtube.com/embed/8aluBPpzCHc?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="75%" height="500" src="https://www.youtube.com/embed/8aluBPpzCHc?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </section>
         <section>
             <h2>Šampioni - Demacie</h2>
@@ -84,7 +108,13 @@
             </a>
         </section>
         <footer>
-            <p>&copy; CryFar 2017-2019</p>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+            <h3>2017-2019 &copy; CryFar All Rights Reserved</h3>
         </footer>
     </body>
 </html>
