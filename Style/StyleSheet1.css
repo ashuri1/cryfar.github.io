@@ -137,10 +137,16 @@ footer a:hover {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
+    transition: .5s;
 }
 .region:hover .region-icon {
     filter: brightness(1);
-    transition: .2s;
+    transition: .5s;
+}
+.region:hover {
+    box-shadow: 0px 0px 8px 8px #927345;
+    transition: .5s;
+    transform: translateY(-2px);
 }
 .region h2 {
     display: block;
