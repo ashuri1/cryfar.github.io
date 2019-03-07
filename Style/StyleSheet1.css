@@ -161,6 +161,40 @@ footer a:hover {
     filter: brightness(0.5);    
     transition: .2s;
 }
+.champion {
+    display: inline-block;
+    text-align: center;
+    color: #927345;
+    margin: 10px;
+    width: 445px;
+    height: 285px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: .5s;
+}
+.champion-icon {
+    height: 250px;
+    filter: brightness(0.5);    
+    transition: .2s;
+    margin: 0;
+}
+.champion:hover .region-icon {
+    filter: brightness(1);
+    transition: .5s;
+}
+.champion:hover {
+    box-shadow: 0px 0px 8px 8px #927345;
+    transition: .5s;
+    transform: translateY(-2px);
+}
+.champion h2 {
+    margin: 0;
+    display: block;
+    background: #927345;
+    color: #161616;
+}
 .iframe-box {
     position: relative;
     overflow: hidden;
@@ -207,6 +241,9 @@ iframe {
     }
 }
 @media (max-width: 768px) {
+    body {
+        background: transparent;
+    }
     .menu-toggle {
         display: block;
         float: right;
@@ -242,9 +279,9 @@ iframe {
         border-radius: 0px;
     }
     .region {
-        width: 165px;
-        height: 125px;
-        font-size: 50%;
+        width: 125px;
+        height: 118 px;
+        font-size: 35%;
     }
     .region-icon {
         height: 100px;
