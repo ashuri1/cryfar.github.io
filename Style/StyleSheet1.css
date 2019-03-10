@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: url("../Images/bcg.jpg");
     background-size: cover;
@@ -57,7 +60,10 @@ nav ul li a:hover {
 .clearfix {
     clear: both;
 }
-/*HEADING END */        
+/*HEADING END */ 
+.nav2 {
+    background: #262626;
+}       
 section {
     color: #927345;
     text-align: center;
@@ -115,7 +121,7 @@ footer a:hover {
     border: 2px solid #927345;
 }
 .link {
-    display: block;
+    display: inline-block;
     margin: 10px 5px;
     padding: 10px 20px;
     color: #927345;
@@ -180,7 +186,7 @@ footer a:hover {
     transition: .2s;
     margin: 0;
 }
-.champion:hover .region-icon {
+.champion:hover .champion-icon {
     filter: brightness(1);
     transition: .5s;
 }
@@ -224,6 +230,24 @@ iframe {
 .AD a:hover {
     color: #363636;
     background: #927345;
+    transition: .2s;
+}
+#top {
+    position: fixed;
+    background: #262626;
+    color: #927345;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #927345;
+    border-radius: 5px;
+    transition: .2s;
+    bottom: 5px;
+    right: 10px;
+    z-index: 1000000;
+}
+#top:hover {
+    background: #927345;
+    color: #262626;
     transition: .2s;
 }
 @media (max-width: 1280px) {
@@ -277,18 +301,21 @@ iframe {
     nav.active ul li a {
         margin: 0;
         border-radius: 0px;
+        border: 0;
     }
     .region {
         width: 125px;
-        height: 118 px;
+        height: 118px;
         font-size: 35%;
     }
     .region-icon {
         height: 100px;
     }
-}
-@media (min-width: 768px) {
-    .menu-toggle {
-        display: none;
+    .champion {
+        height: 145px;
+        width: 200px;
+    }
+    .champion-icon {
+        height: 112px;
     }
 }
