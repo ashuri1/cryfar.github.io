@@ -297,9 +297,11 @@ footer a:hover {
 .video .iframe-box {
     position: relative;
     display: inline-block;
+    width: 50%;
+    height: 50%;
     margin: 5px;
-    width: 650px;
-    height: 400px;
+    margin: 5px;
+    padding-top: 400px;
     overflow: hidden;
     vertical-align: middle;
 }
@@ -309,7 +311,6 @@ footer a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0;
 }
 .AD {
     background: #363636;
