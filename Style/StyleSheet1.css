@@ -372,12 +372,20 @@ footer a:hover {
         float: right;
         cursor: pointer;
         font-weight: bold;
+        border-radius: 5px;
         color: #927345;
         width: 40px;
         height: 40px;
         margin: 10px;
         text-align: center;
         font-size: 30px;
+        transition: .2s;
+        animation: menu2 .5s;
+    }
+    .menu-toggle:hover {
+        animation: menu 1s;
+        background: #363636;
+        transition: .2s;
     }
     .menu-toggle::before {
         content: url('hamburger-icon.svg');
@@ -420,5 +428,42 @@ footer a:hover {
     }
     .champion-icon {
         height: 175px;
+    }
+}
+@keyframes menu {
+    from {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 5px);
+    }
+    75% {
+        transform: translate(0, -5px);
+    }
+    90% {
+        transform: translate(0, 2px);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+@keyframes menu2 {
+    form {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(-2px, 0);
+    }
+    40% {
+        transform: translate(2px, 0);
+    }
+    60% {
+        transform: translate(-2px, 0);
+    }
+    80% {
+        transform: translate(2px, 0);
+    }
+    to {
+        transform: translate(0, 0);
     }
 }
