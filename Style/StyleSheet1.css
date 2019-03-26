@@ -87,6 +87,7 @@ section {
 }
 .Head {
     font-size: 300%;
+    line-height: 45px;
 }
 footer {
     color: #927345;
@@ -119,7 +120,7 @@ footer a:hover {
     display: inline-block;
     border: 2px solid #363636;
     margin: 5px;
-    line-height: 15px;
+    line-height: 20px;
     text-decoration: none;
     color: #927345;
     transition: .5s;
@@ -394,6 +395,9 @@ footer a:hover {
     .menu-toggle.active::before {
         content: url('hamburger-x-icon.svg');
         line-height: 40px;
+    }
+    header {
+        border-bottom: 1px solid #363636;
     }
     nav {
         display: none;
