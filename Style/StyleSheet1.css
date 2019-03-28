@@ -398,13 +398,17 @@ footer a:hover {
     }
     header {
         border-bottom: 1px solid #363636;
+        transition: 1s;
     }
     nav {
+        position: relative;
         display: none;
     }
     nav.active {
+        position: relative;
         display: block;
         width: 100%;
+        animation: mobile-nav-in 1s;
     }
     nav.active ul {
         display: block;
@@ -469,5 +473,15 @@ footer a:hover {
     }
     to {
         transform: translate(0, 0);
+    }
+}
+@keyframes mobile-nav-in {
+    from {
+        left: 768px;
+        opacity: 0;    
+}
+    to {
+        left: 0;
+        opacity: 1;
     }
 }
