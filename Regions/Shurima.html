@@ -5,8 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>League Universe - Shurima</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="../Style/StyleSheet1.css">
+        <link rel="stylesheet" href="../Style/StyleSheet1.css">
+        <link rel="stylesheet" href="../Style/lightbox.css">
         <link rel="shortcut icon" href="/Style/favicon.ico" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="/Scripts/nav-menu.js"></script>
+        <script src="/Scripts/lightbox.js"></script>
+        <script>
+            lightbox.option({
+                'fadeDuration': 500,
+                'imageFadeDuration': 500,
+                'resizeDuration': 500,
+                'alwaysShowNavOnTouchDevices': true,
+            })
+        </script>
     </head>
     <body>
         <!--Heading-->
@@ -22,19 +34,6 @@
             </nav>
             <div class="clearfix"></div>
         </header>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous">
-        </script>
-        <script>
-            $(document).ready(function(){
-                $(".menu-toggle").click(function(){
-                    $('.menu-toggle').toggleClass('active')
-                    $('nav').toggleClass('active')
-                })
-            })
-        </script>
         <!--Heading End-->
         <section class="nav2">
             <a class="link" href="#1">Shurima</a>
@@ -133,55 +132,55 @@
         </section>
         <section id="3">
             <h2>Pohledy na Shurimu</h2>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-vekaurastreets.jpg&resize=:1200" target="_blank" class="imgbox hidden">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-vekaurastreets.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="ZNOVU VZTYČENÝ SLUNEČNÍ KOTOUČ NAD ULICEMI NASHRAMAE">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-vekaurastreets.jpg&resize=:1200" alt="">
                 <div>
                     <h4>ZNOVU VZTYČENÝ SLUNEČNÍ KOTOUČ NAD ULICEMI NASHRAMAE</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-reborn.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-reborn.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="PÍSEK MIZÍ, SHURIMA SE ZNOVU ZRODILA">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-reborn.jpg&resize=:1200" alt="">
                 <div>
-                    <h4>PÍSEK MIZÍ, SHURIMA SE ZNOVU ZRODILA.</h4>
+                    <h4>PÍSEK MIZÍ, SHURIMA SE ZNOVU ZRODILA</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-risen.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-risen.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="URIMA POVSTALA Z PÍSKŮ A OPĚT JE ZALITÁ SLUNEČNÍM SVĚTLEM">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-risen.jpg&resize=:1200" alt="">
                 <div>
                     <h4>URIMA POVSTALA Z PÍSKŮ A OPĚT JE ZALITÁ SLUNEČNÍM SVĚTLEM</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-homecoming.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-homecoming.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="SHURIMSKÝ LID SE VRACÍ DO SVÉHO PRADÁVNÉHO DOMOVA">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-homecoming.jpg&resize=:1200" alt="">
                 <div>
-                    <h4>SHURIMSKÝ LID SE VRACÍ DO SVÉHO PRADÁVNÉHO DOMOVA.</h4>
+                    <h4>SHURIMSKÝ LID SE VRACÍ DO SVÉHO PRADÁVNÉHO DOMOVA</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-ruins.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-ruins.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="ROZVALINY SHURIMY, JEJÍŽ OHROMNÉ PALÁCE A CITADELY DNES LEŽÍ V TROSKÁCH">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-ruins.jpg&resize=:1200" alt="">
                 <div>
                     <h4>ROZVALINY SHURIMY, JEJÍŽ OHROMNÉ PALÁCE A CITADELY DNES LEŽÍ V TROSKÁCH</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-hierophant.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-hierophant.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="DCERA SETAKY, VYZDVIŽENÁ HIEROFANTKA ZURETTY">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fimage-gallery%2Fshurima-hierophant.jpg&resize=:1200" alt="">
                 <div>
                     <h4>DCERA SETAKY, VYZDVIŽENÁ HIEROFANTKA ZURETTY</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_marrowmark_01.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_marrowmark_01.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="TRŽIŠTĚ V KOSTĚNÉM ŽLABU">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_marrowmark_01.jpg&resize=:1200" alt="">
                 <div>
                     <h4>TRŽIŠTĚ V KOSTĚNÉM ŽLABU</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_cascade_01.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_cascade_01.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="ZOANTHSKÁ KASKÁDA">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_cascade_01.jpg&resize=:1200" alt="">
                 <div>
                     <h4>ZOANTHSKÁ KASKÁDA</h4>
                 </div>
             </a>
-            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_valley_01.jpg&resize=:1200" target="_blank" class="imgbox">
+            <a href="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_valley_01.jpg&resize=:1200" target="_blank" class="imgbox" data-lightbox="galery" data-title="ÚDOLÍ PÍSNĚ">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_valley_01.jpg&resize=:1200" alt="">
                 <div>
                     <h4>ÚDOLÍ PÍSNĚ</h4>
