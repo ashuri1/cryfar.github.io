@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: url("../Images/bcg.jpg");
+    background: url("../Images/bcg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -97,11 +97,10 @@ footer {
     top: 80px;
     color: #927345;
     text-align: center;
-    max-width: 1280px;
+    width: 100%;
     margin: 20px auto 0 auto;
     padding: 10px;
     background: #262626;
-    border-radius: 5px;
     box-sizing: border-box;
 }
 footer a {
@@ -351,8 +350,7 @@ footer a:hover {
     height: 25px;
 }
 #top:hover {
-    background: #927345;
-    color: #262626;
+    background: #363636;
     transition: .2s;
 }
 @media (max-width: 1280px) {
@@ -441,11 +439,21 @@ footer a:hover {
         letter-spacing: 2px;
     }
     .champion {
-        height: 175px;
-        width: 125px;
+        height: 150px;
+        width: 100px;
+    }
+    .champion h3 {
+        font-size: 10px;
+    }
+    .champion h4 {
+        font-size: 8px;
+    }
+    .champion p {
+        font-size: 6px;
+        padding: 5px;
     }
     .champion-icon {
-        height: 175px;
+        height: 150px;
     }
 }
 @keyframes menu {
