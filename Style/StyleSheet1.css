@@ -333,6 +333,11 @@ footer a:hover {
     border-radius: 5px;
     transition: .2s;
 }
+.ad1 .ad-iframe-box { 
+}
+.ad1 .ad-iframe-box iframe {
+    width: 100%
+}
 .ad1 a:hover {
     color: #363636;
     background: #927345;
@@ -391,22 +396,29 @@ footer a:hover {
 @media (min-width: 1500px) {
     .ad1 {
         position: fixed;
-        left: 20px;
+        left: 1%;
         top: 100px;
         height: 446px;
-        width: 200px;
+        width: 220px;
         padding: 10px;
         background: #363636;
         border-radius: 5px;
         color: #927345;
         text-align: center;
     }
+    .ad1 .ad-iframe-box {
+        position: relative;
+        width: 220px;
+    }
+    .ad1 .ad-iframe-box iframe {
+        width: 50%;
+    }
     .ad2 {
         position: fixed;
-        right: 20px;
+        right: 1%;
         top: 100px;
         height: 446px;
-        width: 200px;
+        width: 220px;
         padding: 10px;
         background: #363636;
         border-radius: 5px;
