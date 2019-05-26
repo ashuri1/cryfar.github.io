@@ -333,11 +333,6 @@ footer a:hover {
     border-radius: 5px;
     transition: .2s;
 }
-.ad1 .ad-iframe-box { 
-}
-.ad1 .ad-iframe-box iframe {
-    width: 100%
-}
 .ad1 a:hover {
     color: #363636;
     background: #927345;
@@ -468,10 +463,10 @@ footer a:hover {
     nav.active {
         position: fixed;
         display: block;
-        width: 100%;
+        width: 75%;
         height: 100%;
         margin: 0;
-        top: 80px;
+        top: 0;
         right: 0;
         background: #262626;
         border: 1px solid #363636;
@@ -479,6 +474,10 @@ footer a:hover {
     }
     nav.active ul {
         display: block;
+        top: 80px;
+    }
+    nav.active ul li .menu-toggle {
+        float: initial;
     }
     nav.active ul li a {
         margin: 0;
@@ -554,9 +553,9 @@ footer a:hover {
 }
 @keyframes nav {
     from {
-        top: 100%;
+        right: -100%;
     }
     to {
-        top: 80px;
+        right: 0;
     }
 }
