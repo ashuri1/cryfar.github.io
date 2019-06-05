@@ -95,18 +95,22 @@ section {
 footer {
     position: relative;
     top: 80px;
-    color: #927345;
     text-align: center;
     width: 100%;
     margin: 20px auto 0 auto;
-    padding: 10px;
     background: #262626;
+    color: #927345;
     box-sizing: border-box;
 }
 footer .box {
     display: inline-block;
     margin: 0 10px;
-    width: 300px;
+    width: 200px;
+}
+footer .copyright {
+    width: 100%;
+    border-top: 1px solid #927345;
+    padding: 10px 0;
 }
 footer a {
     display: block;
